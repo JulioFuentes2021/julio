@@ -20,7 +20,7 @@ const MenuMobile = () => {
     };
 
     return (
-        <div className="">
+        <div className="md:hidden">
             <div className="overflow-hidden flex items-end">
                 <div className={`flex fixed bottom-0 justify-around w-full items-center p-2 darkModeIsApplied`}>
                     <div className="hoverForHeader">

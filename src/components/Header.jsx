@@ -12,14 +12,14 @@ const Header = () => {
     // };
 
     return (
-            <header className={`flex justify-evenly my-6 darkModeIsApplied`}>
+            <header className={`hidden justify-evenly my-6 darkModeIsApplied md:flex`}>
                 <div className="hoverForHeader">
                     Fuentes
                 </div>
-                <div className="md:hidden">
+                {/* <div className="md:hidden">
                     <FaBars />
-                </div>
-                <ul className="hidden md:flex">
+                </div> */}
+                <ul className="flex">
                     <li className={`${marginXForLi} hoverForHeader`}>
                         Home
                     </li>
