@@ -4,5 +4,18 @@
 @tailwind utilities;
 
 .hoverForHeader {
-    @apply hover:text-blue-400 cursor-pointer;
+	@apply hover:text-blue-400 cursor-pointer;
+}
+
+.activeForMobile:active {
+	color: red;
+}
+
+.MenuTransition {
+	/* transform: translateY(100%); */
+	transition: visibility 2s ease;
+}
+
+.darkModeIsApplied {
+	@apply dark:bg-black dark:text-white;
 }

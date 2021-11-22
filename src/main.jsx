@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './components/Header';
+import App from './components/MenuMobile';
 import { ContextProvider } from './context/index';
 
 ReactDOM.render(
