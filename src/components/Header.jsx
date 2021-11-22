@@ -5,14 +5,14 @@ import { FaSun, FaMoon, FaBars } from 'react-icons/fa'
 
 const Header = () => {
     const marginXForLi = 'mx-2'
-    const { darkMode, setDarkMode } = useContext(Context);
+    const { darkMode, setDarkMode, manageDarkMode } = useContext(Context);
 
-    const handleDarkMode = () => {
-        setDarkMode(!darkMode);
-    };
+    // const handleDarkMode = () => {
+    //     setDarkMode(!darkMode);
+    // };
 
     return (
-            <header className={`flex justify-evenly my-6 ${darkMode ? 'bg-black text-white':''}`}>
+            <header className={`flex justify-evenly my-6 darkModeIsApplied`}>
                 <div className="hoverForHeader">
                     Fuentes
                 </div>
@@ -38,7 +38,7 @@ const Header = () => {
                     <li className={`${marginXForLi} hoverForHeader`}>
                         Contact
                     </li>
-                    <li className={`${marginXForLi} hoverForHeader m-auto`} onClick={handleDarkMode}>
+                    <li className={`${marginXForLi} hoverForHeader m-auto`} onClick={manageDarkMode}>
                         {!darkMode ? <FaMoon/> : <FaSun/>}
                     </li>
                 </ul>

@@ -6,13 +6,14 @@ import { FaSun, FaBars, FaMoon, FaTimes } from 'react-icons/fa'
 const MenuMobile = () => {
     const { darkMode,
         setDarkMode,
+        manageDarkMode,
         showMenuMobile,
         setShowMenuMobile 
     } = useContext(Context);
 
-    const handleDarkMode = () => {
-        setDarkMode(!darkMode);
-    };
+    // const handleDarkMode = () => {
+    //     setDarkMode(!darkMode);
+    // };
 
     const handleMenu = () => {
         setShowMenuMobile(!showMenuMobile);
@@ -26,7 +27,7 @@ const MenuMobile = () => {
                         Fuentes
                     </div>
                     <div className="flex">
-                        <span className="hoverForHeader mx-2" onClick={handleDarkMode}>
+                        <span className="hoverForHeader mx-2" onClick={manageDarkMode}>
                         {!darkMode ? <FaMoon/> : <FaSun/>}
                         </span>
                         <span className="hoverForHeader mx-2" onClick={handleMenu}>
