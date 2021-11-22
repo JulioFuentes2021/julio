@@ -19,3 +19,10 @@
 .darkModeIsApplied {
 	@apply dark:bg-black dark:text-white;
 }
+
+.roundedCustom {
+	border-top-left-radius: 150%;
+	border-top-right-radius: 150%;
+	border-bottom-left-radius: 450%;
+	border-bottom-right-radius: 350%;
+}
