@@ -70,3 +70,7 @@
 		margin: 5rem;
 	}
 }
+
+.formDarkMode {
+	@apply bg-gray-500 text-white;
+}
