@@ -25,6 +25,9 @@ const Index = () => {
 					</div>
 					<BackgroundProfile />
 				</div>
+				<span className="text-center text-4xl block dark:darkModeIsApplied mt-52">
+					Portfolio
+				</span>
 				<div className="portfolioGrid my-16">
 					<Portfolio
 						image="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/570222425cafe8efee31eef0/tigre_0.jpg"
@@ -42,6 +45,9 @@ const Index = () => {
 						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
 					/>
 				</div>
+				<span className="text-center text-4xl block dark:darkModeIsApplied mt-52">
+					Contact
+				</span>
 				<div className="flex flex-col items-center justify-around md:flex-row">
 					<ExtraContact />
 					<ContactForm />
