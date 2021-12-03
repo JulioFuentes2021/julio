@@ -74,3 +74,9 @@
 .formDarkMode {
 	@apply bg-gray-500 text-white;
 }
+
+.footerGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+	justify-items: center;
+}
