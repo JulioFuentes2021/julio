@@ -10,7 +10,7 @@ import ExtraContact from "../components/ExtraContact";
 
 const Index = () => {
 	return (
-		<div className="h-screen darkModeIsApplied">
+		<div className="darkModeIsApplied">
 			<div className="h-full">
 				<div className="">
 					<Header />
