@@ -18,7 +18,7 @@ const ExtraContact = () => {
 					<FaEnvelope />
 				</div>
 				<div className="flex flex-col mx-3">
-					<span className="mb-4 text-2xl">Email</span>
+					<span className="mb-4 text-2xl font-semibold">Email</span>
 					<span className="text-gray-500 sm:text-xl">
 						juliodddddd1234@gmail.com
 					</span>
@@ -29,7 +29,7 @@ const ExtraContact = () => {
 					<FaLocationArrow />
 				</div>
 				<div className="flex flex-col mx-3">
-					<span className="mb-4 text-2xl">Location</span>
+					<span className="mb-4 text-2xl font-semibold">Location</span>
 					<span className="text-gray-500 sm:text-xl">Honduras</span>
 				</div>
 			</article>
