@@ -5,6 +5,8 @@ import ImJulio from "../components/ImJulio";
 import Portfolio from "../components/Portfolio";
 import BackgroundProfile from "../components/BackgroundProfile";
 import SocialNetworks from "../components/SocialNetworks";
+import ContactForm from "../components/ContactForm";
+import ExtraContact from "../components/ExtraContact";
 
 const Index = () => {
 	return (
@@ -13,17 +15,17 @@ const Index = () => {
 				<div className="">
 					<Header />
 				</div>
-				<div className="">
+				<div className="my-16">
 					<MenuMobile />
 				</div>
-				<div className="flex flex-col items-center sm:flex-row sm: justify-around">
+				<div className="flex flex-col my-16 items-center sm:flex-row sm: justify-around">
 					<div className="flex items-center">
 						<SocialNetworks />
 						<ImJulio />
 					</div>
 					<BackgroundProfile />
 				</div>
-				<div className="portfolioGrid">
+				<div className="portfolioGrid my-16">
 					<Portfolio
 						image="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/570222425cafe8efee31eef0/tigre_0.jpg"
 						title="CountryInfo"
@@ -39,6 +41,10 @@ const Index = () => {
 						title="CountryInfo"
 						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
 					/>
+				</div>
+				<div className="flex flex-col items-center justify-around md:flex-row">
+					<ExtraContact />
+					<ContactForm />
 				</div>
 			</div>
 		</div>

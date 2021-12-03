@@ -12,7 +12,9 @@ const Header = () => {
 	// };
 
 	return (
-		<header className={`hidden justify-evenly darkModeIsApplied md:flex`}>
+		<header
+			className={`text-xl py-10 hidden justify-evenly darkModeIsApplied md:flex`}
+		>
 			<div className="hoverForHeader">Fuentes</div>
 			{/* <div className="md:hidden">
                     <FaBars />
