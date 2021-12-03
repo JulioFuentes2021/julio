@@ -6,7 +6,7 @@ const Footer = () => {
 	const webSectionsMargin = "my-4 lg:mx-4";
 
 	return (
-		<div className="h-96 bg-blue-400 text-white p-2 footerGrid darkModeIsApplied text-xl">
+		<div className="h-96 bg-blue-400 text-white p-2 py-12 footerGrid dark:bg-gray-800 text-xl">
 			<div className="flex flex-col text-center justify-center">
 				<span className="font-semibold text-2xl">Julio Fuentes</span>
 				<small>Frontend developer</small>

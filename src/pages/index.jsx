@@ -7,6 +7,7 @@ import BackgroundProfile from "../components/BackgroundProfile";
 import SocialNetworks from "../components/SocialNetworks";
 import ContactForm from "../components/ContactForm";
 import ExtraContact from "../components/ExtraContact";
+import Footer from "../components/Footer";
 
 const Index = () => {
 	return (
@@ -15,7 +16,7 @@ const Index = () => {
 				<div className="">
 					<Header />
 				</div>
-				<div className="my-16">
+				<div className="">
 					<MenuMobile />
 				</div>
 				<div className="flex flex-col my-16 items-center sm:flex-row sm: justify-around">
@@ -45,13 +46,14 @@ const Index = () => {
 						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
 					/>
 				</div>
-				<span className="text-center text-4xl block dark:darkModeIsApplied mt-52">
+				<span className="text-center text-4xl block dark:darkModeIsApplied mt-32 mb-20">
 					Contact
 				</span>
 				<div className="flex flex-col items-center justify-around md:flex-row">
 					<ExtraContact />
 					<ContactForm />
 				</div>
+				<Footer />
 			</div>
 		</div>
 	);

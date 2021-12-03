@@ -43,6 +43,9 @@ const ContactForm = () => {
 					className="w-full h-48 resize-none bg-blue-100 outline-none p-1 dark:bg-gray-800"
 				/>
 			</div>
+			<button className="flex my-5 mx-2 text-white rounded-xl w-28 h-16 bg-blue-400 transition-colors hover:bg-blue-600">
+				<span className="m-auto">Send</span>
+			</button>
 		</form>
 	);
 };
