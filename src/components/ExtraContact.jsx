@@ -10,7 +10,7 @@ const ExtraContact = () => {
 				</div>
 				<div className="flex flex-col mx-3">
 					<span className="mb-4 font-semibold text-2xl">Call Me</span>
-					<span className="text-gray-500 sm:text-xl">98090839</span>
+					<span className="text-gray-500 sm:text-xl">+504 98090839</span>
 				</div>
 			</article>
 			<article className="flex items-center my-5">
@@ -20,7 +20,7 @@ const ExtraContact = () => {
 				<div className="flex flex-col mx-3">
 					<span className="mb-4 text-2xl font-semibold">Email</span>
 					<span className="text-gray-500 sm:text-xl">
-						juliodddddd1234@gmail.com
+						julyfuentes2002@gmail.com
 					</span>
 				</div>
 			</article>

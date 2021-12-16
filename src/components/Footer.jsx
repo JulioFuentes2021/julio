@@ -12,9 +12,15 @@ const Footer = () => {
 				<small>Frontend developer</small>
 			</div>
 			<div className="flex flex-col lg:flex-row justify-center items-center">
-				<span className={`${webSectionsMargin}`}>Services</span>
-				<span className={`${webSectionsMargin}`}>Portfolio</span>
-				<span className={`${webSectionsMargin}`}>Contact</span>
+				<span className={`${webSectionsMargin}`}>
+					<a href="#">About Me</a>
+				</span>
+				<span className={`${webSectionsMargin}`}>
+					<a href="#portfolio">Portfolio</a>
+				</span>
+				<span className={`${webSectionsMargin}`}>
+					<a href="#contact">Contact</a>
+				</span>
 			</div>
 			<div className="flex text-2xl items-center">
 				<span className={`${iconsMargin}`}>

@@ -26,6 +26,7 @@ const Index = () => {
 					</div>
 					<BackgroundProfile />
 				</div>
+				<a name="portfolio"></a>
 				<span className="text-center text-4xl block dark:darkModeIsApplied mt-52">
 					Portfolio
 				</span>
@@ -46,6 +47,7 @@ const Index = () => {
 						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
 					/>
 				</div>
+				<a name="contact"></a>
 				<span className="text-center text-4xl block dark:darkModeIsApplied mt-32 mb-20">
 					Contact
 				</span>

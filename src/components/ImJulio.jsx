@@ -10,11 +10,11 @@ const ImJulio = () => {
 				Frontend developer
 			</span>
 			<small className="text-sm">
-				with extensive knowledge in frontend tecnologies, developing amazing
-				solution to any problem.
+				with extensive knowledge in web technologies, fallen in love about tech
+				world and happy to work in the industry I love.
 			</small>
 			<a
-				href=""
+				href="#contact"
 				className="flex my-5 text-gray-200 rounded-xl h-16 bg-blue-400 transition-colors hover:bg-blue-600"
 			>
 				<button className="p-3">Contact Me</button>

@@ -21,11 +21,15 @@ const Header = () => {
                 </div> */}
 			<ul className="flex">
 				<li className={`${marginXForLi} hoverForHeader`}>Home</li>
-				<li className={`${marginXForLi} hoverForHeader`}>About</li>
-				<li className={`${marginXForLi} hoverForHeader`}>Skills</li>
-				<li className={`${marginXForLi} hoverForHeader`}>Services</li>
-				<li className={`${marginXForLi} hoverForHeader`}>Portfolio</li>
-				<li className={`${marginXForLi} hoverForHeader`}>Contact</li>
+				{/* <li className={`${marginXForLi} hoverForHeader`}>About</li> */}
+				{/* <li className={`${marginXForLi} hoverForHeader`}>Skills</li> */}
+				{/* <li className={`${marginXForLi} hoverForHeader`}>Services</li> */}
+				<li className={`${marginXForLi} hoverForHeader`}>
+					<a href="#portfolio">Portfolio</a>
+				</li>
+				<li className={`${marginXForLi} hoverForHeader`}>
+					<a href="#contact">Contact</a>
+				</li>
 				<li
 					className={`${marginXForLi} hoverForHeader m-auto`}
 					onClick={manageDarkMode}
