@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
 	const iconsMargin = "mx-4";
@@ -24,13 +24,27 @@ const Footer = () => {
 			</div>
 			<div className="flex text-2xl items-center">
 				<span className={`${iconsMargin}`}>
-					<FaLinkedin />
+					<a
+						href="https://www.linkedin.com/in/julio-fuentes-05160220b/"
+						target={"_blank"}
+						rel="noopener noreferrer"
+					>
+						<FaLinkedin />
+					</a>
 				</span>
 				<span className={`${iconsMargin}`}>
-					<FaGithub />
+					<a
+						href="https://github.com/JulioFuentes2021"
+						target={"_blank"}
+						rel="noopener noreferrer"
+					>
+						<FaGithub />
+					</a>
 				</span>
 				<span className={`${iconsMargin}`}>
-					<FaTwitter />
+					<a href="#contact">
+						<FaEnvelope />
+					</a>
 				</span>
 			</div>
 		</div>

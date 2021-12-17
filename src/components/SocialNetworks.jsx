@@ -23,7 +23,9 @@ const SocialNetworks = () => {
 				</a>
 			</div>
 			<div className="my-3 mx-2">
-				<FaEnvelope />
+				<a href="#contact">
+					<FaEnvelope />
+				</a>
 			</div>
 		</div>
 	);

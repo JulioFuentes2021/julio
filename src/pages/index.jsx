@@ -8,6 +8,9 @@ import SocialNetworks from "../components/SocialNetworks";
 import ContactForm from "../components/ContactForm";
 import ExtraContact from "../components/ExtraContact";
 import Footer from "../components/Footer";
+import shortenlinks from "../images/shortenlinks.png";
+import countryInfo from "../images/country-info.png";
+import countryQuiz from "../images/country-quiz.png";
 
 const Index = () => {
 	return (
@@ -32,18 +35,18 @@ const Index = () => {
 				</span>
 				<div className="portfolioGrid my-16">
 					<Portfolio
-						image="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/570222425cafe8efee31eef0/tigre_0.jpg"
+						image={countryInfo}
 						title="CountryInfo"
 						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
 					/>
 					<Portfolio
-						image="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/570222425cafe8efee31eef0/tigre_0.jpg"
-						title="CountryInfo"
+						image={countryQuiz}
+						title="CountryQuiz"
 						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
 					/>
 					<Portfolio
-						image="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/570222425cafe8efee31eef0/tigre_0.jpg"
-						title="CountryInfo"
+						image={shortenlinks}
+						title="ShortenLinks"
 						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
 					/>
 				</div>
