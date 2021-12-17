@@ -45,16 +45,22 @@ const MenuMobile = () => {
 			>
 				<div className="flex z-10 justify-around">
 					<div className="flex flex-col m-3">
-						<span className="my-7">Home</span>
-						<span>About</span>
+						<span className="my-7">
+							<a href="#">About</a>
+						</span>
+						{/* <span>About</span> */}
 					</div>
 					<div className="flex flex-col m-3">
-						<span className="my-7">Skills</span>
-						<span>Services</span>
+						<span className="my-7">
+							<a href="#portfolio">Portfolio</a>
+						</span>
+						{/* <span>Services</span> */}
 					</div>
 					<div className="flex flex-col m-3">
-						<span className="my-7">Portfolio</span>
-						<span>Contact</span>
+						<span className="my-7">
+							<a href="#contact">Contact</a>
+						</span>
+						{/* <span>Contact</span> */}
 					</div>
 				</div>
 				<div className="flex justify-end mx-3 py-2">
