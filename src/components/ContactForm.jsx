@@ -57,6 +57,7 @@ const ContactForm = () => {
 					type="text"
 					id="name"
 					name="name"
+					required
 					className="w-full outline-none p-1 bg-blue-100 dark:bg-gray-800"
 				/>
 				<ValidationError prefix="Name" field="name" errors={state.errors} />
@@ -69,6 +70,7 @@ const ContactForm = () => {
 					type="email"
 					id="email"
 					name="email"
+					required
 					className="w-full bg-blue-100 outline-none p-1 dark:bg-gray-800"
 				/>
 				<ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -96,6 +98,7 @@ const ContactForm = () => {
 					type="text"
 					id="message"
 					name="message"
+					required
 					className="w-full h-48 resize-none bg-blue-100 outline-none p-1 dark:bg-gray-800"
 				/>
 				<ValidationError

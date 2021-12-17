@@ -37,17 +37,20 @@ const Index = () => {
 					<Portfolio
 						image={countryInfo}
 						title="CountryInfo"
-						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
+						href="https://juliofuentes2021.github.io/CountryInfo/"
+						content="Html, Javascript,React.js, useContext, react-router, Redux, styled-components"
 					/>
 					<Portfolio
 						image={countryQuiz}
 						title="CountryQuiz"
-						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
+						href="https://juliofuentes2021.github.io/Country-Quiz-App/"
+						content="Html, Css3, Javascript, React.js, useContext, react-router, Redux"
 					/>
 					<Portfolio
 						image={shortenlinks}
 						title="ShortenLinks"
-						content="lorem ipsumco conmcosncs imcoismcos incsoicmos"
+						href="https://juliofuentes2021.github.io/ShortenLinks-App/"
+						content="Html, Css3, Javascript, React.js, useContext, react-router, Redux, LocalStorage, styled-components"
 					/>
 				</div>
 				<a name="contact"></a>

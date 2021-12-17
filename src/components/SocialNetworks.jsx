@@ -13,7 +13,7 @@ const SocialNetworks = () => {
 					<FaLinkedin />
 				</a>
 			</div>
-			<div className="my-3 mx-2">
+			<div className="my-3 mx-2 cursor-pointer">
 				<a
 					href="https://github.com/JulioFuentes2021"
 					target={"_blank"}
