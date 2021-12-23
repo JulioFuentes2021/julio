@@ -5,9 +5,9 @@ import Error from "../components/Error";
 
 const index = () => {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/julio/">
 			<Routes>
-				<Route path="/" element={<App />} />
+				<Route path="/julio/" element={<App />} />
 				<Route path="*" element={<Error />} />
 			</Routes>
 		</BrowserRouter>

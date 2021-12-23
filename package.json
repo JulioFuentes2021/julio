@@ -1,10 +1,13 @@
 {
+  "homepage": "https://JulioFuentes2021.github.io/julio",
   "name": "julio",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@formspree/react": "^2.2.4",
@@ -20,6 +23,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
     "autoprefixer": "^10.4.0",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19",
     "vite": "^2.6.4"
